@@ -19,5 +19,6 @@ jobs:
     - name: Validate Secret
       run: echo "${{ secrets.FIREBASE_SECRETORY }}" | wc -c
 
+
     #- name: Deploy to Firebase
      # run: firebase deploy --token "${{ secrets.FIREBASE_SECRETORY }}" --debug
